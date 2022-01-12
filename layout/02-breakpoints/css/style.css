@@ -39,8 +39,20 @@ h1 {
 }
 
 
-
 .btn-primary {
   background: #000;
   border: none;
+}
+
+/* Container Breakpoint */
+
+.container-sm {
+  border: 1px solid #000;
+}
+
+.container-md {
+  border: 1px solid #888;
+}
+.container-lg {
+  border: 1px solid #777;
 }
