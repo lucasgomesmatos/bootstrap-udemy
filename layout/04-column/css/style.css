@@ -1,0 +1,11 @@
+.row {
+  background: #000;
+  height: 100px;
+  padding: 10px;
+}
+
+.col-6,
+.col-2 {
+  border: 1px solid #ff0000;
+  background: #ddd;
+}
