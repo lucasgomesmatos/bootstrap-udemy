@@ -1,0 +1,74 @@
+/* XS */
+h1 {
+  color: #ff0000;
+}
+
+/* SM  >= 576px*/
+@media (min-width: 576px) {
+  h1 {
+    color: #000;
+  }
+}
+
+/* MD >= 768px */
+@media (min-width: 768px) {
+  h1 {
+    color: #008000;
+  }
+}
+
+/* LG >= 992px */
+@media (min-width: 992px) {
+  h1 {
+    color: #800080;
+  }
+}
+
+/* XL >= 1200px */
+@media (min-width: 1200px) {
+  h1 {
+    color: #ffff00;
+  }
+}
+
+/* XXL >= 1400px */
+@media (min-width: 1400px) {
+  h1 {
+    color: #008080;
+  }
+}
+
+
+.btn-primary {
+  background: #000;
+  border: none;
+}
+
+/* Container Breakpoint */
+
+.container-sm {
+  border: 1px solid #000;
+}
+
+.container-md {
+  border: 1px solid #888;
+}
+.container-lg {
+  border: 1px solid #777;
+}
+
+.container {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.row {
+  border: 5px solid #800080;
+  height: 100px;
+  padding: 10px;
+  margin: 0;
+}
+
+.col {
+  border:  2px solid #ff0000;
+}
