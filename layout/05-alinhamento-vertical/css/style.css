@@ -1,0 +1,20 @@
+.row {
+  background: #000;
+  height: 500px;
+  padding: 10px;
+}
+
+.col-6,
+.col-6 {
+  border: 1px solid #ff0000;
+  height: 100px;
+}
+
+#vertical {
+  height: 350px;
+  border-color: tomato;
+}
+
+#vertical .row {
+  height: 100%;
+}
